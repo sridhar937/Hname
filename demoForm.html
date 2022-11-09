@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Ui Registration Form</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<h2>UI DEVELOPERS REGISTRATION FORM</h2>
+<img src="C:\Users\PawaN\Desktop\developer.jpg" height="100" width="500"/>
+<hr>
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" name="firstname" placeholder="enter f name">
+  <br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" name="lastname" placeholder="enter l name">
+  <br><br>
+</form><br>
+<b>Name of State:</b>
+<select name="names">
+    <option value="name">Telangana</option>
+    <option value="name">Andhrapradesh</option>
+    <option value="name">kerala</option>
+    <option value="name">goa</option>
+	<option value="name">up</option>
+    <option value="name">karnataka</option>
+  </select><br><br>
+  <b>Address:</b>
+  <textarea name="message" ></textarea>
+  <br><br>
+  <input type="checkbox" name="gender" value="name"> Male
+<input type="checkbox" name="gender" value="name"> Female
+<br><br>
+<input type="radio" name="gender" value="name"> Married
+<input type="radio" name="gender" value="name"> Unmarried
+<br><br>
+<b>Date of birth:</b>
+<input type="date" name="date"/><br><br>
+<input type="file" name="fileupload"  accept=""/>
+<br><br>
+<b>Html certificate score:</b>
+<input type="number" name="number"/>
+<br>
+<fieldset>
+<legend><h3>Technical Skills Information</h3></legend>
+ <input type="checkbox" name="skill" value=""> HTML<br>
+  <input type="checkbox" name="skill" value=""> CSS<br>
+  <input type="checkbox" name="skill" value=""> Bootstrap<br>
+  <input type="checkbox" name="skill" value=""> AngularJS<br>
+  <input type="checkbox" name="skill" value=""> JSON<br>
+  <input type="checkbox" name="skill" value=""> Jquery<br>
+</fieldset><br>
+<fieldset>
+<legend><h4>Company Address Details</h4></legend>
+<label for="company">Company Name:</label>
+<input type="text" name="company" id="company" class="txt" />
+<br>
+<label for="address2">Address:</label>
+<input type="text" name="address2" id="address2" class="txt" />
+<br>
+<label for="city">Town / City:</label>
+<input type="text" name="city" id="city" class="txt" />
+<br>
+<label for="zip">Zip / Post code:</label>
+<input type="text" name="zip" id="zip" pattern="[0-9]{6}" maxlength="6" />
+</fieldset><br><br>
+  <pre><input type="button" value="Submit" />                     <input type="button" value="Cancel" /></pre>
+</form>
+<br>
+</body>
+</html>
